@@ -1,0 +1,121 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.navbar {
+  background-color: #005a8d;
+  overflow: hidden;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.page {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+  background:rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-top: 30px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+ 
+  font-size: 20px;
+  
+}
+
+h1, h2, h3 {
+  color: #005a8d;
+}
+
+ul {
+  line-height: 1.8;
+}
+
+/* @media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .page {
+    padding: 20px;
+  }
+} */
+#heading{
+  text-align: center;
+  font-family: Lucida Bright;
+}
+table{
+  border-width: 10px;
+  border-color:#005a8d;
+  width: 80%; /* make the whole table wider */
+    border-collapse: collapse;
+    font-size: 20px; /* make text bigger */
+    margin: 20px auto;
+}
+img {
+  border-width: 10px;
+}
+.team-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+  padding: 15px 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.member-details {
+  flex: 1;
+}
+
+.member-details h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.member-details p {
+  margin: 5px 0 0;
+  color: #555;
+}
+
+.member-photo img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #ddd;
+}
+#surveyChart {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: block;
+}
